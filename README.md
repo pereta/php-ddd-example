@@ -21,7 +21,7 @@
   <br />
   <br />
   Take a look, play and have fun with this.
-  <a href="https://github.com/CodelyTV/cqrs-ddd-php-example/stargazers">Stars are welcomed 😊</a>
+  <a href="https://github.com/CodelyTV/php-ddd-example/stargazers">Stars are welcomed 😊</a>
   <br />
   <br />
   <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
@@ -29,9 +29,9 @@
   <br />
   <a href="https://www.youtube.com/watch?v=1kaP39W80zQ">View Demo</a>
   ·
-  <a href="https://github.com/CodelyTV/cqrs-ddd-php-example/issues">Report Bug</a>
+  <a href="https://github.com/CodelyTV/php-ddd-example/issues">Report Bug</a>
   ·
-  <a href="https://github.com/CodelyTV/cqrs-ddd-php-example/issues">Request Feature</a>
+  <a href="https://github.com/CodelyTV/php-ddd-example/issues">Request Feature</a>
 </p>
 
 
@@ -58,8 +58,8 @@
 ### 🐳 Needed tools
 
 1. [Install Docker](https://www.docker.com/get-started)
-2. Clone this project: `git clone https://github.com/CodelyTV/cqrs-ddd-php-example cqrs-ddd-php-example`
-3. Move to the project folder: `cd cqrs-ddd-php-example`
+2. Clone this project: `git clone https://github.com/CodelyTV/php-ddd-example php-ddd-example`
+3. Move to the project folder: `cd php-ddd-example`
 
 ### 🛠️ Environment configuration
 
@@ -74,7 +74,8 @@
 ### ✅ Tests execution
 
 1. Install PHP dependencies if you haven't done so: `make deps`
-2. Execute Behat and PHP Unit tests: `make test`
+2. Bring up all the Docker containers: `make start`
+3. Execute Behat and PHP Unit tests: `make test`
 
 ## 🤔 Project explanation
 
